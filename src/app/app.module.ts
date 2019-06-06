@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { ClassesComponent } from './classes/classes.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MatTooltipModule} from '@angular/material/tooltip';
+import { LectureDetailComponent } from './lecture-detail/lecture-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ClassesComponent
+    ClassesComponent,
+    LectureDetailComponent
   ],
   imports: [
     BrowserModule,
