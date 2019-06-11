@@ -10,11 +10,15 @@ import { MatTooltipModule} from '@angular/material/tooltip';
 import { LectureDetailComponent } from './lecture-detail/lecture-detail.component';
 import {FormsModule} from '@angular/forms';
 import {MatButtonModule, MatIconModule} from '@angular/material';
+import { HeaderComponent } from './header/header.component';
+import { PageNavigationComponent } from './page-navigation/page-navigation.component';
 @NgModule({
   declarations: [
     AppComponent,
     ClassesComponent,
-    LectureDetailComponent
+    LectureDetailComponent,
+    HeaderComponent,
+    PageNavigationComponent
   ],
   imports: [
     BrowserModule,
