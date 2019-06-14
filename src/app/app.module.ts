@@ -12,13 +12,15 @@ import {FormsModule} from '@angular/forms';
 import {MatButtonModule, MatIconModule} from '@angular/material';
 import { HeaderComponent } from './header/header.component';
 import { PageNavigationComponent } from './page-navigation/page-navigation.component';
+import { MainComponentComponent } from './main-component/main-component.component';
 @NgModule({
   declarations: [
     AppComponent,
     ClassesComponent,
     LectureDetailComponent,
     HeaderComponent,
-    PageNavigationComponent
+    PageNavigationComponent,
+    MainComponentComponent
   ],
   imports: [
     BrowserModule,
