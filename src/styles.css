@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 html {
-  background-image: url("./assets/pics/socialShareImage.jpg");
-  background-repeat: no-repeat;
+  background-image: url("./assets/pics/it-background-images_1343624.png");
+  background-repeat: repeat-y ;
   background-size: cover;
 }
 body{
