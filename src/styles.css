@@ -1,12 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 html {
-  background-image: url("./assets/pics/it-background-images_1343624.png");
+  background-image: url("./assets/pics/another_backg.jpg");
   background-repeat: repeat-y ;
   background-size: cover;
 }
 body{
   margin: 0;
   padding: 0;
+  position: fixed;
+  width:100%;
+  height: 100%;
 }
 
 h1{
